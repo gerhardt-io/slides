@@ -6,7 +6,7 @@ theme: solarized
 revealOptions:
     transition: fade
 ---
-<!-- .img: border="none"s -->
+<!-- .img: data-border: none -->
 # Implementation Patterns
 Dr. Frank Gerhardt
 
