@@ -140,42 +140,6 @@ Test-Driven Development, 2002
   - use patterns every few seconds
 - First, browse content to know what's in there
 - Read ch. "A Theory of Programming" first, it's great
-<!--
-read the book
-desk reference
-2nd nature
-"Projektsprache"
-personal style
- 
-TODO add code example for nested conditionals
-
-TODO is there an errata?
-e.g. field roles, "plain data" is missing IMHO
-
-
-examples from JUnit 4
-
-Hey, which books have a theory section and a philosophy appendix!?
-
-refers to Christopher Alexander
-
-TODO how to write unmaintainable code
-
-TODO using syntax highlighting, no types in names
-
-TODO Kafka: alles umbenennen
-
-TODO think about the debugger + stack traces
-- need to work with code when error happens
-- under stress
-
-TODO beginner style: yet another level of if
-
--->
-<!-- 
-## Structure
-![](structure.jpg)
--->
 
 
 ## Motivation
@@ -993,3 +957,35 @@ Note: TODO add steps 1.-6.
   - **nachher am Stand**
 - we're not hiring, kein Gewinnspiel ;-)
 - freie Kapazitäten ab September
+
+<!--
+read the book
+desk reference
+2nd nature
+"Projektsprache"
+personal style
+ 
+TODO add code example for nested conditionals
+
+TODO is there an errata?
+e.g. field roles, "plain data" is missing IMHO
+
+
+examples from JUnit 4
+
+Hey, which books have a theory section and a philosophy appendix!?
+
+refers to Christopher Alexander
+
+TODO how to write unmaintainable code
+
+TODO using syntax highlighting, no types in names
+
+TODO Kafka: alles umbenennen
+
+TODO think about the debugger + stack traces
+- need to work with code when error happens
+- under stress
+
+TODO beginner style: yet another level of if
+-->
