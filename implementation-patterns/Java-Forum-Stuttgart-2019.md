@@ -17,17 +17,16 @@ revealOptions:
 <!-- .slide: data-background="./Implementation-Patterns-Korsika.jpg" -->
 
 
-## About
+## Dr. Frank Gerhardt
 - Smalltalker, LISP-Lover, Emacs
   - auch Java, Eclipse, neuerdings JS, Python
-  - für Clojure gibt's leider weder Kunden noch Entwickler :-/
 - Gründer und 1. Erster Vorsitzender der JUGS
   - erster JFS-Organisator 
 - Software Experts Network Stuttgart e.V.
-  - nachher am Stand
+  - **nachher am Stand**
 - Gerhardt Informatik, 10 Mitarbeiter
 - we're not hiring, kein Gewinnspiel ;-)
-- freie Kapa ab September
+- freie Kapazitäten ab September
 
 <!--
 SW archaeology, Steinplatten
@@ -65,27 +64,33 @@ anwenden.
 
 
 ## Why?
-- there was no talk on YouTube
-* I have two books
-- people don't read
+- I have two copies of "Implementation Patterns"
+  - people don't read books
 - I read a lot more code nowadays
-- reviewing is coaching
-- I do it because
-- most projects don't
+  - reviewing is coaching
+  - I explain these patterns again and again
+- I need this presentation for my team
+  - there was no talk on YouTube
+
+
+## Spanish Talk
+<!--
+<iframe width="640" height="360" src="https://www.youtube.com/embed/y82xz547zs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+![](youtube-talk-spanish.png)
+
+https://www.youtube.com/watch?v=y82xz547zs8
 
 
 
-## About Kent Beck
+## Kent Beck
 - SUnit -> JUnit -> xUnit
 - Ward and Kent, c2.com Wiki
-- talk at JUGS
-- Volksfest
-- new book Refactoring, 2nd ed.
-<!--
-TODO JUGS-Bild
--->
-<!--
--->
+- talk at JUGS 1998
+  - going out to Cannstatter Wasen
+
+
+<!-- .slide: data-background="./jugs-1998.png" -->
 
 
 ## Design Patterns
@@ -96,30 +101,45 @@ Gang of Four, 1994, using C++
 -->
 
 
-## Test-Driven Development
-Test-Driven Development (TDD), 2002
-![](https://images-na.ssl-images-amazon.com/images/I/51kDbV%2BN65L._SX396_BO1,204,203,200_.jpg)
-
-
 ## XP
 eXtreme Programming, 1999, 2nd ed. 2004
 ![](https://images-na.ssl-images-amazon.com/images/I/416Y8MS65TL._SX377_BO1,204,203,200_.jpg)
 
 
 ## Refactoring
-2012, 2nd ed. 2019
+1999, 2nd ed. 2019
 
 ![](https://images-na.ssl-images-amazon.com/images/I/51K-M5hR8qL._SX392_BO1,204,203,200_.jpg) ![](https://images-na.ssl-images-amazon.com/images/I/41LBzpPXCOL._SX379_BO1,204,203,200_.jpg)
 
 
+## Agile Manifesto
+- 2001
+- **values** and **principles**
+- Kent **B**eck is first signer 
+  - thanks to alphabetical order
+
+
+## TDD
+Test-Driven Development, 2002
+![](https://images-na.ssl-images-amazon.com/images/I/51kDbV%2BN65L._SX396_BO1,204,203,200_.jpg)
+
+
 ## About the Book
 - first as Smalltalk book, 1996
-- then Java, when JUnit 4 was new
-- 77 patterns
+- then Java, when JUnit 4 was new, 2008
+- 77 patterns, 157 pages
   - in 45 minutes!? Nope.
 
 ![](https://images-na.ssl-images-amazon.com/images/I/513f-WV%2BNjL._SX376_BO1,204,203,200_.jpg) ![](https://images-na.ssl-images-amazon.com/images/I/51CwRmCLjML._SX381_BO1,204,203,200_.jpg)
 
+
+## Tour Guide
+- How to read the Book?
+- Kent writes
+  - read just in time
+  - use patterns every few seconds
+- First, browse content to know what's in there
+- Read ch. "A Theory of Programming" first, it's great
 <!--
 read the book
 desk reference
@@ -127,25 +147,11 @@ desk reference
 "Projektsprache"
 personal style
  
-TODO was war der Satz mit breeds defects?
-Nested conditionals breed defects.
-TODO add code example
+TODO add code example for nested conditionals
 
 TODO is there an errata?
 e.g. field roles, "plain data" is missing IMHO
 
-What is old about the book
-- Interfaces
-- paper
-- "he" not "she"
-- functional
-- annotations
-- all real-world cross-cutting concern: authorizaiton, logging,
-  multi-threading, versioning
-  - authorization
-  - persistence
-  - logging
-  - concurrency
 
 examples from JUnit 4
 
@@ -166,36 +172,13 @@ TODO think about the debugger + stack traces
 TODO beginner style: yet another level of if
 
 -->
-
-
-## Spanish Talk
-<iframe width="640" height="360" src="https://www.youtube.com/embed/y82xz547zs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-https://www.youtube.com/watch?v=y82xz547zs8
-
-
-<!-- .slide: data-background="./structure.jpg" -->
-
 <!-- 
 ## Structure
 ![](structure.jpg)
 -->
 
 
-## Mantra
-Programming so that other people can understand your code
-
-## Jeopardy
-Example
-- Answer: A word describing being thrown out of window <!-- .element: class="fragment" -->
-- Question: What is defenestration? <!-- .element: class="fragment" -->
-
-
-## Coding is like Jeopardy
-- the Java code is the answer
-- what was the question? 
-
-A field declared as a `Set` means...
+## Motivation
 
 
 ## Assumption, Premise
@@ -209,41 +192,22 @@ Most of the time, not always.
 - don't program by instinct
   - explainable, why?
 - importance of other people
-- consciously for others as well as for yourself
+  - the other's perspective
+  - programming so that other people can understand your code
+  - consciously for others as well as for yourself
 
 
-## How to use the Book
-Kent writes
-- read just in time
-- use patterns every few seconds
-
-First, browse content to know what's in there.
-
-Read ch. "A Theory of Programming" first, it's great.
-<!--
-Chapter 1: Introduction
-Tour Guide
-And Now
-Chapter 2: Patterns
-Chapter 3: A Theory of Programming
-Values
-Communication
-Simplicity
-Flexibility
-Principles
-Local Consequences
-Minimize Repetition
-Logic and Data Together
-Symmetry
-Declarative Expression
-Rate of Change
-Conclusion
-Chapter 4: Motivation
--->
+## Jeopardy
+- Answer: A word describing being thrown out of a window <!-- .element: class="fragment" -->
+- Question: What is defenestration? <!-- .element: class="fragment" -->
+- Coding is like Jeopardy <!-- .element: class="fragment" -->
+- Answer: your Java code <!-- .element: class="fragment" -->
+- Question: what was the question? <!-- .element: class="fragment" -->
+- E.g. a field declared as a Set means... <!-- .element: class="fragment" -->
 
 
 
-## Theory
+## "Theory"
 
 
 ## "Laws"
@@ -268,21 +232,21 @@ Chapter 4: Motivation
 - flexibility
 
 
-## Communication
+## 1. Communication
 - with other people
 - literate programming
   - nice: Jupyter notebooks
 - the other's perspective
 
 
-## Simplicity
+## 2. Simplicity
 - remove excess complexity
 - in the eye of the beholder
 - have audience in mind
 - waves of complexity and simplification
 
 
-## Flexibility
+## 3. Flexibility
 - keep options open
 - misused? speculative?
 
@@ -301,25 +265,28 @@ CamelCase, under_scores, lisp-style should go into style guide
 - rate of change (temporal symmetry)
 
 
-## Motivation
-- cost
-  - initial
-  - maintenance
-    - understanding
-	- changing
-	- testing
-	- deploying
-- don't forget human needs
+## Cost 
+- initial
+- maintenance
+  - understanding
+  -  changing
+  - testing
+  - deploying
 
 
 
-## Patterns Overview by...
-- Class
-- State: different data
-- Behavior: similar logic
-- Methods: dividing logic
-- Collections
+## Patterns Overview
+- Class (18): data and logic together
+- State (19): different data
+- Behavior (14): similar logic
+- Methods (24): dividing logic
+- Collections: multi-valued data
 - Frameworks
+
+Note: only 75 pattern here, 77 claimed on back cover, 89 in index
+
+
+<!-- .slide: data-background="./structure.jpg" -->
 
 
 ## Class Patterns 
@@ -443,16 +410,16 @@ Note: Chapter 9:
 
 
 
-## Class Patterns
+## Class Patterns (18)
 
 
-## Class
+### Class
 - data changes for often than logic
 - expensive
 - reduce number
 
 
-## Simple Superclass Name
+### Simple Superclass Name
 - the super class name is the most important name
 - operation follow after the class name, not reverse
 - tension long or short?
@@ -462,7 +429,7 @@ Note: Chapter 9:
 - go for a walk
 
 
-## Qualified Subclass Name
+### Qualified Subclass Name
 - one word would be best
 - express how is the subclass
   - similar
@@ -471,7 +438,7 @@ Note: Chapter 9:
 - too short names burden the developers' short term memory
 
 
-## Abstract Interface
+### Abstract Interface
 - each interface has a cost
   - one more thing to learn, understand, document, debug, organize,
     browse, and name
@@ -484,7 +451,7 @@ Note: Chapter 9:
   introduce flexibility is when it is definitely needed.
 
 
-## Interface 
+### Interface 
 - named like classes
 - names already used up by classes
   - ISomething is fine, see Eclipse
@@ -492,30 +459,30 @@ Note: Chapter 9:
 - changes to interfaces are discouraged
 
 
-## Abstract Class
+### Abstract Class
 - a mix of interface and class
 
 
-## Versioned Interface
+### Versioned Interface
 - OK if not too many
 - see Eclipse
   - ISomething, ISomething2, ISomething3
 - `instanceOf` 
 
 
-## Value Object
+### Value Object
 - set all fields in constructor
 - always return new objects
 - whenever possible create microworlds of math
 
 
-## Specialization
+### Specialization
 - extremes
   - same logic, different data
   - different logic, same data
 
 
-## Subclass
+### Subclass
 - can play this card only once :-/
 - static, can not change at runtime
   - delegation can
@@ -524,7 +491,7 @@ Note: Chapter 9:
 - avoid parallel hierarchies
 
 
-## Implementor
+### Implementor
 - polymorphic messages
   - to different receivers
   - for parameters see *overloading*
@@ -532,261 +499,497 @@ Note: Chapter 9:
 - open a system to variation
 
 
-## Inner Class
+### Inner Class
 - when nobody outside needs to know
 
 
-## Instance-Specific Behavior
+### Instance-Specific Behavior
 - static
 - dynamic
 
 
-## Conditional
+### Conditional
 - or maybe better
   - subclass
   - delegation
-  
-  
-## Delegation
+
+
+### Delegation
 - pass delegator as a parameter
 - store in a field
 - or calculated
 
 
-## Pluggable Selector
+### Pluggable Selector
 - call with reflection
 - store name in field
 
 
-## Anonymous Inner Class
+### Anonymous Inner Class
 - alternative way to implement *instance-specific behavior*
 - override one or more methods for specific behavior
 - more static that delegation
 - difficult to test
 
 
-## Library Class
+### Library Class
 - start with static methods
 - try instances
 - maybe evolve to a real class
 
 
 
-## State Patterns
+## State Patterns (19)
 
 
-## State
+### State
+- state is not only bad
+  - functional programming not yet popular
+  - single assignment
+  - variable-less programming
+- state is valuable
 
 
-## Access
+### Access
+- accessing values
+- invoking computations
 
 
-## Direct Access
+### Direct Access
+- "most of my thoughts have nothing to do with storage"
 
 
-## Indirect Access
+### Indirect Access
+- cache
+- listeners
 
 
-## Common State
+### Common State
+- used in one operation only?
+- used at one time only?
+- what operations have to work on the state?
+- what is the lifetime of the state?
 
 
-## Variable State
+### Variable State
+- use a map
 
 
-## Extrinsic State
+### Extrinsic State
+- e.g. persistence
+- identity map
+  - the state is stored elsewhere
 
 
-## Variable
+### Variable
+- not much to say
 
 
-## Local Variable
+### Local Variable
+- use simple names
+- should have same lifetime and scope
+  - "siblings"
 
 
-## Field
+### Field
+- consider final
+- roles 
+  - helper
+  - flag
+  - strategy
+  - state
+  - components
 
 
-## Parameter
+### Parameter
+- preferable to static fields
+  - coupling
+- weaker coupling than permanent reference
 
 
-## Collecting Parameter
+### Collecting Parameter
+- use one parameter as a "basket" to collect results
 
 
-## Optional Parameter
+### Optional Parameter
+- e.g. creating a `Socket`
+  - with few or more parameters
+  - "telescoping" 
 
 
-## Var Args
+### Var Args
+- use varargs to pass a variable number of arguments instead of a collection
 
 
-## Parameter Object
+### Parameter Object
+- group many parameters in its own object
 
 
-## Constant
+### Constant
+- store state that doesn't vary as a constant
 
 
-## Role-Suggesting Name
+### Role-Suggesting Name
+- short names
+- no type info in name
+- no "l" for local, like lCount, or "f" for field
+- reuse common names
+  - result
+  - each
+  - count
+- saving letters with 1-letter names is false economy
 
 
-## Declared Type
+### Declared Type
+- List or Collection, think about promises you make
+- be pessimistic ;-)
+- allow as litte information as possible to spread as narrowly as
+  possible
+- communicate the use
+  - not in variable name, e.g. `uniqueBooks`
+  - rather `Set<Book>`
 
 
-## Initialization
+### Initialization
+- initialize variables declaratively as much as possible
 
 
-## Eager Initialization
+### Eager Initialization
+- initialize fields at instance creation time
 
 
-## Lazy Initialization
+### Lazy Initialization
+- initialize fields whose values are expensive to calculate just
+  before they are first used
 
 
 
-## Behavior Patterns
+## Behavior Patterns (18)
+- history: all based on the concept of the **instruction**
+  - by Neumann János Lajos, from Budapest, aka [John von
+    Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
+- later: the **expression**
+  - the LISP school
 
 
-## Control Flow
+### Control Flow
+- sequence
+- conditional
+- loops
+- groupings
+  - in class
+  - delgating
+- levels of abstraction
 
 
-## Main Flow
+### Main Flow
+- happy day, or hostile environment?
+- focus on main flow, make seldom executed corner cases less
+  prominent
+- use exceptions to keep main flow clean
+  - main exception handler
+  - consider coupling and dependencies
 
 
-## Message
+### Message
+- all about **change**
+  - receiver will be changed
+  - sender will not be changed
+- ```Java
+  compute() {
+    input();
+    process();
+    output();
+  }```
+- no functions, no return values
+- all in receiver, or side-effects
 
 
-## Choosing Message
+### Choosing Message
+- vary the implementors of a message to express choices
+- like a case statement
+- ```Java
+  public void displayShape(Shape subject, Brush brush) {
+    brush.display(subject);
+  }```
+- implementation chosen by runtime type of brush
 
 
-## Double Dispatch
+### Double Dispatch
+- vary the implementors of messages along two axes to express
+  cascading choices
 
 
-## Decomposing (Sequencing) Message
+### Decomposing (Sequencing) Message
+- break complicated calculations into cohesive chunks
 
 
-## Reversing Message
+### Reversing Message
+- Make control flow symmetric by sending a message that can be implemented in different ways
 
 
-## Inviting Message
+### Inviting Message
+- invite future varation by seindin a message that can eb implemented in different ways
+- aka hook
 
 
-## Explaining Message
+### Explaining Message
+- send a message to explain the purpose of a clump of logic
 
 
-## Exceptional Flow
+### Exceptional Flow
+- express the unusual flow of control as clearly as possible
+  without interfering with the expression of the main flow
 
 
-## Guard Clause
+### Guard Clause
+- express local exceptional flows by an early return
+- IF/ELSE is equally important
+  - do you want that?
+- single entry, single exit
+  - not so relevant any more today
+- **nested conditionals breed defects**
 
 
-## Exception
+### Exception
+- express non-local exceptional flow with exceptions
 
 
-## Checked Exceptions
+### Checked Exceptions
+- makes refactoring more difficult
+- more cost
+- risk of termination
 
 
-## Exception Propagation
+### Exception Propagation
+- wrap
+- add detail
 
 
 
-## Methods Patterns
+## Methods Patterns (24)
+- the gigantic procedure, why not?
+  - independent reuse
+  - independent reading
+- issues 
+  - size
+  - purpose
+  - naming
 
 
-## Composed Method
+### Composed Method
+- compose methods our of calls to other mehods
+- levels of abstraction<br/> 
+  ```Java
+  compute() {
+    input();
+    flags |= 0x0080;
+    output();
+  }```
 
 
-## Intention-Revealing Name
+### Intention-Revealing Name
+- name methods after what they are inteded to do
+- think about the calling side
+- not: implementation detail
 
 
-## Method Visibility
+### Method Visibility
+- make methods as private as possible
+- private, final
+- thik about responsibility
 
 
-## Method Object
+### Method Object
+- turn complex methods into their own objects
+- Kent's favourite
 
+Note: TODO add steps 1.-6.
 
-## Overridden Method
 
+### Overridden Method
+- override methods to express specializaiton
+- abstract?
+- invitaton
+- final
 
-## Overloaded Method
 
+### Overloaded Method
+- provide alternative interfaces to the same computation
+- different parameters
+- number of parameters, carefully
+- don't mess with return type
 
-## Method Return Type
 
+### Method Return Type
+- declare the most general possible return type
+- `void` implies side effects
+  - in the receiver, or elsewhere
+- distinguis procedures and functions
+- use most abstract type
+  - consider interface
+  - expect changes
 
-## Method Comment
 
+### Method Comment
+- comment methods to communicate information not easily read from the code
+- better: use names
+- redundancy is waste
+- even consider tests
+  - e.g. for calling order of different methods
+  - this after that
 
-## Helper Method
 
+### Helper Method
+- create small, private methods to express the main computation more succintly
+- hide details in composed method
 
-## Debug Print Method
 
+### Debug Print Method
+- use `toString()` to print useful debugging information
+- this is valuable
+- for different audiences
+- abuse: parse `toString()` output
 
-## Conversion
 
+### Conversion
+- express the conversion of one type of object to another cleanly
 
-## Conversion Method
 
+### Conversion Method
+- for simple, limited conversions, provide a method on the source
+  object that returns the converted object
+- use sparingly, not 20 times
+- better: constructor, see next
+- beware of dependency
 
-## Conversion Constructor
 
+### Conversion Constructor
+- for most conversions, provide a method on the converted object's
+  class that takes the source object as parameter
+- don't pile up conversions in source object
 
-## Creation
 
+### Creation
+- express object creation clearly
 
-## Complete Constructor
 
+### Complete Constructor
+- write constructors that return fully formed objects
 
-## Factory Method
 
+### Factory Method
+- express more complex creation as a static method on a class
+  rather than a constructor
+- advantages
+  - return different type
+    - even interface
+  - **can name after intention**
 
-## Internal Factory
 
+### Internal Factory
+- encapsulate in a helper method object creation that may need
+  explanation or later refinement
 
-## Collection Accessor Method
 
+### Collection Accessor Method
+- provide methods that allow limited access to collections
+- an `iterator` is safe except for `remove()`
+- example, next slide
 
-## Boolean Setting Method
 
+```Java
+  Interator<Book> getBooks() {
+    final Iterator<Book> reader = books.iterator();
+	return new Iterator<Book>() {
+	  
+	  public boolean hasNext() {
+	    reaturn reader.hasNext();
+	  }
+	  
+	  public Book next() {
+	    return reader.next();
+      }
+	  
+	  public void remove() {
+	    throw new UnsupportedOperationException();
+	  }
+	};
+  } ```
 
-## Query Method
 
+### Boolean Setting Method
+- if it helps communication, provide two methods to set boolean
+  values, one for each state<br/>
+  ```Java
+  void setState(boolean newState);
+  
+  void valid() { ...
+  void invalid() { ...
+  ```
 
-## Equality Method
 
+### Query Method
+- return boolean values with methods as `asXXX`
+- prefix with a form of "be" or "has"
+  - `isValid()`, `hasNext()`
 
-## Getting Method
 
+### Equality Method
+- define `equals()` and `hashCode()` together
 
-## Setting Method
 
+### Getting Method
+- occasionally provide access to fields with a method returning that field
 
-## Safe Copy
 
+### Setting Method
+- even less frequently provide the ability to set fields with a method
 
 
+### Safe Copy
+- avoid aliasing errors by copying objects passed in or out of accessor methods
+- better: immutable objects
 
-## JavaScript
-```JS
-Reveal.initialize({
-	// Options which are passed into marked
-	// See https://marked.js.org/#/USING_ADVANCED.md#options
-	markdown: {
-		smartypants: true
-	}
-});
-```
 
 
+## Wrap up
 
-## Links
-- https://github.com/gerhardt-io/slides
 
-# One
+## Update needed?
+- style, fashion
+  - "he" not "she"
+  - functional is underrated
+- recent additions to Java not covered
+  - interfaces, defaults
+  - annotations
+- patterns explained in "Hello, world!" context
+  - not in real-world context
+  - authorization, persistence, logging, concurrency
 
-> Best quote ever.
 
-* Frag 1 <!-- .element: class="fragment" -->
-* Frag 2 <!-- .element: class="fragment" -->
+## Conclusion
+- everything in the book is valid today
+- worth reading also for non-Java developers
+- pattern language to talk about your code
+  - table of contents will be your most valuable pages
+  - lists all the patterns conscisely
 
-Note: speaker notes FTW!
 
+## Next
+- buy the book, read it
+- keep it on your desk
+- don't expect colleagues to read it
+  - it's a conversation
+- establish patterns language in your team
+  - when reviewing code, pull requests
 
-<!-- .slide: data-background="#ffffff" -->
-The End.
+
+<!-- .slide: data-background="#888888" -->
+# The End.
+
+* https://github.com/gerhardt-io/slides
+- Software Experts Network Stuttgart e.V.
+  - **nachher am Stand**
+- we're not hiring, kein Gewinnspiel ;-)
+- freie Kapazitäten ab September
